@@ -1,0 +1,16 @@
+{
+  "name": "cookie-check-server",
+  "version": "1.0.0",
+  "description": "Node.js server for cookie check",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "cors": "^2.8.5"
+  }
+}

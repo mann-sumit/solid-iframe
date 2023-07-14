@@ -5,13 +5,12 @@
 <body>
     <script>
         window.onload = function() {
-          var thirdPartyCookiesEnabled = navigator.cookieEnabled;
-          if (!thirdPartyCookiesEnabled) {
+
                 document.cookie = 'testCookie=1';
                 thirdPartyCookiesEnabled = document.cookie.indexOf('testCookie') !== -1;
                 document.cookie = 'testCookie=1; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
                 console.log(document.cookie);
-          }
+          
         
           var parentWindow = window.parent;
         console.log(document.cookie);

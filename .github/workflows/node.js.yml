@@ -23,5 +23,4 @@ jobs:
 
       - name: Build and start Node.js server
         run: |
-          npm run build
           node server.js

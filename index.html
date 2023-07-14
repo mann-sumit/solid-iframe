@@ -12,7 +12,8 @@
             return isCookieEnabled;
         }
         (function () {
-             document.cookie = "testcookie";
+             document.cookie = "testcookie=test";
+            console.log(document.cookie);
             window.addEventListener('message', event => {
                 try {
                     let data = JSON.parse(event.data)
